@@ -1,0 +1,23 @@
+# VoiceLingua Configuration
+
+api:
+  host: "0.0.0.0"
+  port: 8001
+  debug: false
+
+translator:
+  default_source: "en"
+  default_target: "id"
+  engine: "local"
+  cache_enabled: true
+  max_cache_size: 10000
+
+voice:
+  engine: "browser"
+  default_rate: 0.9
+  default_pitch: 1.0
+  auto_detect_language: true
+
+history:
+  max_entries: 100
+  persist: false
